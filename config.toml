@@ -1,0 +1,70 @@
+baseurl      = "https://dcron.in"
+title        = "Daniel Cronin"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+pagination.pagerSize     = 10
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = true
+  
+
+  [[params.social]]
+    name = "mastodon"
+    url  = "https://cronin.social/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:daniel@dcron.in"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/dcronin05"
+
+  [[params.social]]
+    name = "discord"
+    url  = "https://discord.com/users/161254752997343232"
+
+  [[params.social]]
+    name = "portainer"
+    url  = "https://portainer.cronin.live"
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Daniel Cronin"
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+
+  [languages.en.params]
+    subtitle  = "dcron.in"
+
+    [languages.en.params.logo]
+      logoText = "dcron.in"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "apps"
+    name       = "Apps"
+    url        = "/apps"
+
+  [[menu.main]]
+    identifier = "containers"
+    name       = "Containers"
+    url        = "https://portainer.cronin.live"
