@@ -5,8 +5,8 @@ theme        = "hello-friend-ng"
 pagination.pagerSize     = 10
 
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
+  dateform        = "2 Jan 2006"
+  dateformShort   = "2 Jan"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
 
@@ -16,6 +16,23 @@ pagination.pagerSize     = 10
   # Enable sharing buttons, if you like
   enableSharingButtons = true
   
+  [params.author]
+    name = "Daniel Cronin"
+
+
+  # Custom footer
+  # If you want, you can easily override the default footer with your own content.
+  #
+  [params.footer]
+    trademark = 2024
+    rss = true
+    author = true
+
+    topText = [ ]
+    bottomText = [
+#      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
+#      "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
+    ]
 
   [[params.social]]
     name = "mastodon"
@@ -30,12 +47,12 @@ pagination.pagerSize     = 10
     url  = "https://github.com/dcronin05"
 
   [[params.social]]
-    name = "discord"
-    url  = "https://discord.com/users/161254752997343232"
+    name = "gitea"
+    url  = "https://gitea.cronin.one/dcronin05"
 
   [[params.social]]
-    name = "portainer"
-    url  = "https://portainer.cronin.live"
+    name = "discord"
+    url  = "https://discord.com/users/161254752997343232"
 
 [taxonomies]
     category = "blog"
@@ -55,16 +72,16 @@ pagination.pagerSize     = 10
       logoHomeLink = "/"
     # or
     #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+#     path = "web-app-manifest-192x192.png"
+#     alt = "Your example logo alt text"
 
   # And you can even create generic menu
   [[menu.main]]
-    identifier = "apps"
-    name       = "Apps"
+    identifier = "hosted"
+    name       = "Hosted"
     url        = "/apps"
 
   [[menu.main]]
-    identifier = "containers"
-    name       = "Containers"
-    url        = "https://portainer.cronin.live"
+    identifier = "posts"
+    name       = "Posts"
+    url        = "/posts"
