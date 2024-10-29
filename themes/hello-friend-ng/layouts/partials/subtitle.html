@@ -1,0 +1,9 @@
+{{ if .Site.Params.homeSubtitleWithHtml }}
+  {{- with .Site.Params.homeSubtitleWithHtml }}
+    {{. | safeHTML }}
+  {{- end }}
+{{else}}
+  {{- with .Site.Params.homeSubtitle }}
+    <p>{{.}}</p>
+  {{- end }}
+{{ end }}

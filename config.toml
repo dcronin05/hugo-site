@@ -28,11 +28,8 @@ pagination.pagerSize     = 10
     rss = true
     author = true
 
-    topText = [ ]
-    bottomText = [
-#      "Powered by <a href=\"http://gohugo.io\">Hugo</a>",
-#      "Made with &#10084; by <a href=\"https://github.com/rhazdon\">Djordje Atlialp</a>"
-    ]
+
+    bottomText = ['<a href="https://github.com/dcronin05"><img src="https://jandee.vercel.app/dcronin05?scheme=dark" /></a>']
 
   [[params.social]]
     name = "mastodon"
@@ -80,6 +77,11 @@ pagination.pagerSize     = 10
     identifier = "hosted"
     name       = "Hosted"
     url        = "/apps"
+
+  [[menu.main]]
+    identifier = "mastodon"
+    name       = "Mastodon"
+    url        = "/mastodon"
 
   [[menu.main]]
     identifier = "posts"
