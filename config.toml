@@ -32,12 +32,12 @@ pagination.pagerSize     = 10
     bottomText = ['<a href="https://github.com/dcronin05"><img src="https://jandee.vercel.app/dcronin05?scheme=dark" /></a>']
 
   [[params.social]]
-    name = "mastodon"
-    url  = "https://cronin.social/"
-
-  [[params.social]]
     name = "email"
     url  = "mailto:daniel@dcron.in"
+
+  [[params.social]]
+    name = "mastodon"
+    url  = "https://cronin.social/"
 
   [[params.social]]
     name = "github"
@@ -50,6 +50,10 @@ pagination.pagerSize     = 10
   [[params.social]]
     name = "discord"
     url  = "https://discord.com/users/161254752997343232"
+
+  [[params.social]]
+    name = "gitlab"
+    url  = "https://git.dcron.in"
 
 [taxonomies]
     category = "blog"
