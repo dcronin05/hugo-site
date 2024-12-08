@@ -37,7 +37,7 @@ pagination.pagerSize     = 10
 
   [[params.social]]
     name = "mastodon"
-    url  = "https://cronin.social/"
+    url  = "https://mastodon.cronin.one/"
 
   [[params.social]]
     name = "github"
@@ -45,15 +45,11 @@ pagination.pagerSize     = 10
 
   [[params.social]]
     name = "gitea"
-    url  = "https://gitea.cronin.one/dcronin05"
+    url  = "https://git.dcron.in"
 
   [[params.social]]
     name = "discord"
     url  = "https://discord.com/users/161254752997343232"
-
-  [[params.social]]
-    name = "gitlab"
-    url  = "https://git.dcron.in"
 
 [taxonomies]
     category = "blog"
