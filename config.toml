@@ -29,7 +29,7 @@ pagination.pagerSize     = 10
     author = true
 
 
-    bottomText = ['<a href="https://github.com/dcronin05"><img src="https://jandee.vercel.app/dcronin05?scheme=dark" /></a>']
+  # bottomText = ['<a href="https://github.com/dcronin05"><img src="https://jandee.vercel.app/dcronin05?scheme=dark" /></a>']
 
   [[params.social]]
     name = "email"
