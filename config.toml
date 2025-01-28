@@ -36,8 +36,8 @@ pagination.pagerSize     = 10
     url  = "mailto:daniel@dcron.in"
 
   [[params.social]]
-    name = "mastodon"
-    url  = "https://mastodon.cronin.one/"
+    name = "gitlab"
+    url  = "https://gitlab.dcron.in/"
 
   [[params.social]]
     name = "github"
